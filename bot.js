@@ -4,7 +4,7 @@ const prefix = '*'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Night`,"http://twitch.tv/S-F")
+client.user.setGame(`VeRox-Store`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -27,5 +27,4 @@ client.user.setGame(`Night`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
 });
-
 client.login(process.env.BOT_TOKEN);
